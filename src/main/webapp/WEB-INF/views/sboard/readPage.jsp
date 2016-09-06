@@ -19,7 +19,7 @@
 	
 	.back {
 		background-color: gray;
-		opacity: 0.5;
+		opacity: 1;
 		width: 100%;
 		height: 300%;
 		overflow: hidden;
@@ -98,8 +98,7 @@
 						<button type="submit" class="btn btn-warning" id="modifyBtn">Modify</button>
 						<button type="submit" class="btn btn-danger" id="removeBtn">REMOVE</button>
 					</c:if>
-					<button type="submit" class="btn btn-primary" id="goListBtn">GO
-						LIST</button>
+					<button type="submit" class="btn btn-primary" id="goListBtn">GO LIST</button>
 				</div>
 
 			</div>
@@ -107,7 +106,7 @@
 		</div>
 		<!--/.col (left) -->
 		<div class="col-md-6">
-			<img class="img-responsive img-circle" style="width: 100%" alt="xxx" src="http://www.loremflickr.com/200/200/dog"/>
+<!-- 			<img class="img-responsive img-circle" style="width: 100%" alt="xxx" src="http://www.loremflickr.com/200/200/dog"/> -->
 		</div>
 	</div>
 	<!-- /.row -->
